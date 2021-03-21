@@ -12,9 +12,9 @@
     <tr>
       <td><%= book.title %></td>
       <td><%= book.body %></td>
-      <td><%= link_to "Show", book_path(book.id), class: 'link' %></td>
-      <td><%= link_to "Edit", edit_book_path(book.id), class: 'link' %></td>
-      <td><%= link_to "Destroy", book_path(book.id), method: :DELETE, class: 'link' %></td>
+      <td><%= link_to "Show", book_path(book), class: 'link' %></td>
+      <td><%= link_to "Edit", edit_book_path(book), class: 'link' %></td>
+      <td><%= link_to "Destroy", book_path(book), method: :DELETE, class: 'link' %></td>
     </tr>
   <% end %>
   </tbody>
