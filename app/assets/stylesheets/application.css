@@ -56,6 +56,8 @@ p {
   color: white;
 }
 
+/* books/index */
+
 h4 {
   font-weight: normal;
 }
@@ -77,3 +79,11 @@ table tbody td {
   padding: 1px 5px 7px;
 }
 
+/* books/show */
+
+.link-of-show {
+  display: flex;
+}
+.link-of-show p {
+  margin: 0 3px;
+}
