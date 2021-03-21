@@ -99,5 +99,10 @@ table tbody td {
 
 /* flash-message */
 .flash {
-  color: green
+  color: green;
+}
+
+/* error-message */
+.error {
+  color: red;
 }
