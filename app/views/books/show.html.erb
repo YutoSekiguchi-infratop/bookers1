@@ -2,7 +2,7 @@
 <p><strong>Body: </strong><%= @book.body %></p>
 
 <div class="link-of-show">
-  <%= link_to "Edit", edit_book_path(@book.id), class: "link" %>
+  <%= link_to "Edit", edit_book_path(@book), class: "link" %>
   <p>|</p>
   <%= link_to "Back", books_path, class: "link" %>
 </div>
