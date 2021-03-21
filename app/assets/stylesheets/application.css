@@ -85,5 +85,14 @@ table tbody td {
   display: flex;
 }
 .link-of-show p {
-  margin: 0 3px;
+  margin: 0 5px;
+}
+
+/* books/edit */
+.link-of-edit {
+  display: flex;
+  margin-top: 10px
+}
+.link-of-edit p {
+  margin: 0 5px;
 }
