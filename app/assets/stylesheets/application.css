@@ -43,13 +43,15 @@ h2 {
 p {
   margin: 33px;
 }
-
-.start-link{
+.start-link {
   margin-left: 33px;
+}
+
+.link{
   color: #666666;
 }
 
-.start-link:hover {
+.link:hover {
   background-color: black;
   color: white;
 }
@@ -66,5 +68,12 @@ h4 {
   padding: 1px 6px;
   display: block;
   margin-top: 10px;
+}
+
+table th{
+  padding-bottom: 5px;
+}
+table tbody td {
+  padding: 1px 5px 7px;
 }
 
